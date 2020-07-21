@@ -1,7 +1,7 @@
-name: "mag2020"
+name: mag2020
 output_dir: ../docs
 navbar:
-  title: "mag2020"
+  title: mag2020
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/poldham/mag2020
 output:
   workflowr::wflow_html:
     toc: yes
